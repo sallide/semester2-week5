@@ -31,7 +31,7 @@
  *   Personal Loan: Income ≥ 2000, Credit Score ≥ 600
  * - Max loan calculation:
 	 Car Loan: income * 20
-	 House Loan: income * 60
+	 Home Loan: income * 60
 	 Personal Loan: income * 10
  *
  * Example:
@@ -43,7 +43,7 @@
  * Output:
  * Loan type: Car Loan
  * Loan status: Approved
- * Maximum loan amount: 20000.00
+ * Maximum loan amount: 90000.00
  */
  
 #include <stdio.h>
