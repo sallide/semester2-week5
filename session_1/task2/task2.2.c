@@ -55,11 +55,23 @@ int main(void) {
 
 	// Complete your code here
     switch (choice) {
-        case :
+        case '1':
+            converted = amount*0.92;
+            break;
+        case '2':
+            converted = amount*1.08;
+            break;
+        case '3':
+            converted = amount*0.79;
+            break;
+        case '4':
+            converted = amount*1.27;
             break;
         default:
             printf("Invalid option\n");
     }
+
+    printf("Result: %.2lf\n", converted);
 
     return 0;
 }
