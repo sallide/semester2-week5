@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 int main(void){
 	long decimal=0;
@@ -26,6 +27,8 @@ int main(void){
 
 	for (int i = 0; i < len; i++) {
 		
+		hex[i] = toupper(hex[i]);
+
 		if (hex[i] == '0') {
             temp=0;
         }
