@@ -2,8 +2,8 @@
  * Sem 2, week 5
  *
  * Portfolio submission: Hexadecimal to Decimal Converter
- * Name:
- * ID: 
+ * Name: Saloni Pradhan
+ * ID: 201829493
  */
 
 #include <stdio.h>
